@@ -154,7 +154,7 @@ def write_worksheet(daysary, outfile):
 
 
 def main():
-    infile = './Fall23ScheduleEtest.csv'
+    infile = './Fall23ScheduleE.csv'
     outfile = 'course-output-Fall-2023.xlsx'
 
 
