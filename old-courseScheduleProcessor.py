@@ -58,20 +58,18 @@ def make_days_ary(infile):
             # If this is the first line in the program (column headers)
             if line_count == 0:
                 line_count += 1
-                print("FIRST")
                
             # If there are not 11 full columns of data in a row, or there is something weird in column 10
-            elif len(row)!= 14:
+            elif len(row)!= 11 or row[10] == '?' or row[10] == '':
                 line_count += 1
-                print("Len:", len(row), "content:", row[10])
-                print("ELIF")
+                #print("Len:", len(row), "content:", row[10])
             else:
-                #print("ELSE")
+                print("ELSE")
                 # Name is Dept Course - Section
-                name = str(row[0]) + ' ' + str(row[1])  + '-' + str(row[2]) #SUB, CRSE, SEC
+                name = str(row[0]) + ' ' + str(row[1])  + '-' + str(row[2])
                 # Convert times to index in the excel sheet
-                startTime = time_to_index(int(row[12]))
-                endTime = time_to_index(int(row[13]), 'true')
+                startTime = time_to_index(int(row[9]))
+                endTime = time_to_index(int(row[10]), 'true')
                 #check if the next line is a lab of the class on the previous line
 
                 # If the name is the same as the previous name, this means this one is a lab
@@ -80,14 +78,12 @@ def make_days_ary(infile):
                 prevname = name
 
                 classobj = [name, startTime, endTime, colorhex[it%len(colorhex)]]
-                print(classobj)
-                print()
 
                 # add the classobj to the day array of every day that class occurs on
-                for x in range (7,12):
+                for x in range (4,9):
                     if row[x] != '':
-                        #print(classobj)
-                        daysary[x-7].append(classobj)
+                        print(classobj)
+                        daysary[x-4].append(classobj)
 
                 line_count += 1
 
@@ -155,7 +151,7 @@ def write_worksheet(daysary, outfile):
 
 def main():
     infile = './Fall23ScheduleEtest.csv'
-    outfile = 'course-output-Fall-2023.xlsx'
+    outfile = './course-output-Fall-2023.xlsx'
 
 
     # print(infile)
