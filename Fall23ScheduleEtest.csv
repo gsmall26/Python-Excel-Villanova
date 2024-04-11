@@ -1,0 +1,63 @@
+﻿SUB,CRSE,SEC,ROOM,"TITLES FOR TOPICS / SEMINARS","PREV ENR","MAX ENR",M,T,W,R,F,"BEGIN TIME","END TIME"
+CSC,1010,100,,Programming for All,28,28,,,W,,,1815,2055
+CSC,1010,101,,Programming for All,28,28,,,,R,,1815,2055
+CSC,1051,001,G88,Algorithms & Data Struc I,28,22,,T,,R,,0830,0945
+CSC,1051,001,G88,Algorithms & Data Struc I,28,22,,,W,,,0830,0920
+CSC,1051,002,G88,Algorithms & Data Struc I,28,22,,T,,R,,1000,1115
+CSC,1051,002,G88,Algorithms & Data Struc I,28,22,,,W,,,0935,1025
+CSC,1051,003,G88,Algorithms & Data Struc I,23,22,M,,W,,F,1145,1235
+CSC,1051,003,G88,Algorithms & Data Struc I,23,22,,,W,,,1040,1130
+CSC,1051,004,G88,Algorithms & Data Struc I,20,22,M,,W,,F,1250,1340
+CSC,1051,004,G88,Algorithms & Data Struc I,20,22,,,W,,,1355,1445
+CSC,1051,005,G88,Algorithms & Data Struc I,26,22,M,,W,,,1520,1635
+CSC,1051,005,G88,Algorithms & Data Struc I,26,22,,,,R,,1600,1650
+CSC,1051,006,115,Algorithms & Data Struc I,28,22,,T,,R,,1600,1750
+CSC,1051,100,115,Algorithms & Data Struc I,26,22,,T,,R,,1800,1950
+CSC,1052,001,G92,Algorithms & Data Struc II,29,20,,T,,R,,1600,1715
+CSC,1052,001,G92,Algorithms & Data Struc II,29,20,,,W,,,1645,1735
+CSC,1052,100,G87,Algorithms & Data Struc II,21,20,,T,,R,,1800,1950
+CSC,1300,001,G92,Discrete Structures,24,25,M,,W,,,1355,1510
+CSC,1300,002,G92,Discrete Structures,24,25,M,,W,,,1520,1635
+CSC,1300,003,G88,Discrete Structures,,25,,T,,R,,1430,1545
+CSC,1300,100,G90,Discrete Structures,0,25,M,,,,,1815,2055
+CSC,1700,001,G87,Analysis of Algorithms,9,25,,T,,R,,1000,1115
+CSC,1700,002,G87,Analysis of Algorithms,19,25,,T,,R,,1130,1245
+CSC,1800,001,G92,Organ of Prog Languages,22,25,,T,,R,,1000,1115
+CSC,1800,002,G87,Organ of Prog Languages,17,25,,T,,R,,1300,1415
+CSC,1990,001,,Enrichment Sem in Computing,45,60,M,,,,,1645,1800
+CSC,2014,001,,Java Bootcamp,31,25,M,,,,,1145,1325
+CSC,2014,100,G87,Java Bootcamp,7,25,,,W,,,1815,2000
+CSC,2053,001,G87,Platform Based Computing,28,20,M,,W,,,1355,1510
+CSC,2053,002,G87,Platform Based Computing,27,20,M,,W,,,1520,1635
+CSC,2053,100,G90,Platform Based Computing,0,20,,,W,,,1815,2055
+CSC,2300,001,G92,Statistics for Computing,31,36,,T,,R,,1430,1545
+CSC,2400,001,G87,Computer Systems I,24,20,M,,W,,F,0830,0920
+CSC,2400,002,G87,Computer Systems I,17,20,M,,W,,F,0935,1025
+CSC,2400,100,G83,Computer Systems I,17,20,M,,,,,1815,2055
+CSC,2405,100,,Computer Systems II,,25,,,W,,,1815,2055
+CSC,3010,001,290,Overview of Cybersecurity,22,20,M,,W,,,1520,1635
+CSC,3010,100,G92,Overview of Cybersecurity,22,20,M,,,,,1815,2055
+CSC,4170,001,G87,Theory of Computation,27,20,,T,,R,,1430,1545
+CSC,4170,002,G87,Theory of Computation,10,20,,T,,R,,1600,1715
+CSC,4300,001,G83,Computer Graphics,,25,M,,W,,,1520,1635
+CSC,4450,100,G87,Digital Forensics,27,25,M,,,,,1815,2055
+CSC,4480,002,G88,Principles of Database Systems,13,25,,T,,R,,1300,1415
+CSC,4480,001,G88,Principles of Database Systems,24,25,,T,,R,,1130,1245
+CSC,4480,100,G90,Principles of Database Systems,13,25,,T,,,,1815,2055
+CSC,4550,100,G92,Computing for Data Science,9,25,,,W,,,1815,2055
+CSC,4790,001,G87,Senior Projects,25,18,M,,W,,F,1145,1235
+CSC,4790,002,G87,Senior Projects,25,18,M,,W,,F,1250,1340
+CSC,4790,100,G88,Senior Projects,19,18,,,,R,,1810,2050
+CSC,5930,003,G90,TOP:IOT Security,12,15,,T,,R,,1600,1715
+CSC,8000,100,290,,,15,M,,,,,1815,2100
+CSC,8301,001,G88,Design and Ana of Algs,13,15,,T,,,,1815,2100
+CSC,8310,001,G83,Programming Languages,18,15,,,W,,,1815,2100
+CSC,8490,001,,Database Systems,20,15,,T,,,,1815,2100
+CSC,8515,001,G88,Machine Learning,10,15,M,,,,,1815,2100
+CSC,8540,DL1,,Software Engineering,11,15,M,,,,,1815,2100
+CSC,8542,001,G88,Software Design and Evolution,13,15,,,W,,,1815,2100
+CSC,8544,001,,Software Project Management,16,15,M,,,,,1815,2100
+CSC,8566,001,290,Internet of Things,15,15,,,,R,,1815,2100
+CSC,9010,001,G92,TOP:DevOps:Tools & Techniques,17,15,,T,,,,1815,2100
+CSC,9010,002,G92,Network & Security,,15,,,,R,,1815,2100
+CSC,9025,001,,Grand Challenges of Computing,14,40,M,,,,,1645,1800
